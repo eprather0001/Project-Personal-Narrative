@@ -32,11 +32,14 @@ Record a short video of your story to display here on your README. You can do th
 - Upload the thumbnail image to your repo.
 - Use the following markdown
 
-[![Thumbnail for my projet](nameOfThumbnail.png)](youtube-URL-here)
+
+<img width="1685" alt="Screen Shot 2025-02-03 at 7 42 16 PM" src="https://github.com/user-attachments/assets/b10ed3dc-5445-4958-9c62-d8b2c54666f2" />
 
 ## Story Description
 
-Write a description of the story that your animation showcases. Give addional context for your story here in the case your animation is more abstract and only has images and little text. Lastly, include what data in your project is represented in 2D arrays and how those directly relate to the story your animation showcase.
+The story my animation showcases is about the books I read. I decided to animate a review of my favorite book series I have read. I really enjoy reading books so I thought this was fitting for myself. I represented information used 3 different 2D arrays. I used 2 String arrays and 2 double arrays. I used the String arrays to store the information of the book titles and my reviews of the books. I used the double array to store the rating out of 5 I gave to each book. 
 ## Image Filter Analysis
 
-Choose at least 2 filters uses in your animation to explain how the pixels are modified. If you created a new image filter that was not one of the ones from this unit, make sure to explain and analyze that filter(s) before choosing ones that came from this unit.
+The filters I used are the colorize filter, the adjust contrast filter, motion blur, and saturate. In the colorize filter the pixels are modified by coloring them only 3 colors, blue, green, and red. The adujust contrast filter changes the brightness of items in the photo by making them lighter or darker. The saturation filter refers to the amount of gray in proportion to the hue in a color. The motion blur filter makes the image look like it is moving in a certain direction by bluring it. 
+
+
