@@ -14,7 +14,7 @@ public MyStory(String[][] title, double[][] rating, String[][] review){
   this.review = review;
 }
 
-
+//draws all the scene
 public void drawScene(){
 drawIntroScene();
   drawTemplateScene();
@@ -22,7 +22,8 @@ drawIntroScene();
 }
 
 
-  
+  //creates a template used for all the middle scenes 
+  // changes the text on the scene based on the row and column
   public void drawTemplateScene(){
     for (int row = 0; row < title.length; row++) {
       for (int col = 0; col < title[0].length; col++) {
@@ -40,6 +41,7 @@ drawIntroScene();
         ImageFilter bookImage = new ImageFilter(title[row][col] + ".JPG");
         drawImage(bookImage, 20, 75, 170);
         pause(1);
+       // applies filter to an image based on the row
         if(row == 0){
           bookImage.colorize();
         }
@@ -56,13 +58,13 @@ drawIntroScene();
           bookImage.colorize();
         }
         drawImage(bookImage, 20, 75, 170);
+        //4. Pause before transitioning
         pause(1.5);
         
-        //4. Pause before transitioning
       }
     }    
   }
-
+//creates the intro scene
 public void drawIntroScene(){
   clear("pink");
   setTextHeight(30);
@@ -73,6 +75,7 @@ playSound("crowdclapping.wav");
 pause(3);
 }
 
+  // creates the ending scene
 public void drawEndingScene(){
    clear("pink");
   setTextHeight(30);
